@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200300,400,500,600,700,800,900&amp;lang=en');
+
+* {
+  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.main-container {
+  max-width: 720px;
+  margin: 12px auto;
+}
+
+.main-header {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.main-header div {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.header-span {
+  display: flex;
+  align-items: center;
+}
+.header-spacer {
+  margin: 0 8px;
+}
+.header-span svg {
+  margin-right: 4px;
+}
+
+.main-header > h1 {
+  color: #525252;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+hr {
+  border: 2px solid #1a2e3d;
+  margin-bottom: 12px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+section .section-title {
+  width: 15%;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+section .section-body {
+  width: 85%;
+}
+
+/* Job Section */
+.job-section {
+  margin-bottom: 8px;
+}
+.job-company > span {
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.job-role {
+  margin-bottom: 4px;
+}
+.job-role div {
+  display: flex;
+  justify-content: space-between;
+}
+.job-role > ul {
+  margin-left: 20px;
+}
+.job-role-title {
+  font-weight: 700;
+}
+.job-role-dates {
+  font-style: italic;
+}
+
+.bullets {
+  margin-left: 120px;
+}
+
+/* skills */
+.skills-container {
+  margin-top: -8px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-list > li {
+  width: 50%;
+}
+
+/* School Section */
+.school-section {
+  margin-bottom: 8px;
+}
