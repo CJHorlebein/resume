@@ -67,8 +67,9 @@ export const data: Resume = {
             dates: { from: 'Oct 2023', to: 'Present' },
             bullets: [
               `Led a team of 4 developers, ensuring efficient project management and task delegation`,
-              `Implemented a <b>feature flagging</b> system for dynamic feature releases`,
-              `Overhauled our agile methodology, reducing time on duplicate testing and ticket size debates`,
+              `Implemented a <b>Feature Flagging</b> system for dynamic feature releases`,
+              `Utilized <b>Github Actions</b> to implement Test Coverage reporting on Pull Requests`,
+              `Overhauled our agile methodology, reducing time on testing and repeat meetings`,
               `Mentored junior developers on best practices and coding standards`,
             ],
           },
@@ -80,7 +81,7 @@ export const data: Resume = {
               `Designed and architected a page builder to generate dynamic forms`,
               `Collaborated with product managers and designers to define feature requirements`,
               `Developed a robust permissions system for different user roles`,
-              'Built a components library using <b>Mantine UI</b> with <b>HTML / CSS</b> to ensure consistent and reusable components across the application',
+              'Built a components library using <b>Mantine UI</b> with <b>HTML / CSS</b> to ensure consistent and reusable components',
             ],
           },
         ],
@@ -157,7 +158,7 @@ export const data: Resume = {
   awards: {
     body: [
       {
-        content: 'Reibus Engineering Culture Award for Collaboration',
+        content: 'Reibus Engineering Culture Award for Curiosity',
         date: 'Dec 2022',
       },
     ],
@@ -165,20 +166,20 @@ export const data: Resume = {
   education: {
     schools: [
       {
-        date: 'Apr 2019',
-        degree: 'Technical Certificate',
-        field: 'Full Stack Software Development',
-        name: 'DigitalCrafts',
-        address: 'Atlanta, GA',
-        gpa: '',
-      },
-      {
         date: 'May 2014',
         degree: 'Bachelor of Science',
         field: 'Electrical Engineering',
         name: 'Western Carolina University',
         address: 'Cullowhee, NC',
         gpa: '3.4',
+      },
+      {
+        date: 'Apr 2019',
+        degree: 'Technical Certificate',
+        field: 'Full Stack Software Development',
+        name: 'DigitalCrafts',
+        address: 'Atlanta, GA',
+        gpa: '',
       },
     ],
   },
